@@ -9,8 +9,11 @@ Makeup Page
 The user will be capable to browse and serach different makeup catergories by types or if looking for certain makeup that are vegan or hyerallegenic, as well as view pricing a description to the makeup. User will be able to favoritve products and be able to sign up with their email on the homepage.
 
 ## API and Data Sample
-[url]https://makeup-api.herokuapp.com/
-[url]http://makeup-api.herokuapp.com/api/v1/products.json
+
+[api docs](https://makeup-api.herokuapp.com/)
+
+[request](http://makeup-api.herokuapp.com/api/v1/products.json)
+
 ![Screen Shot 2021-06-22 at 7 58 38 AM](https://user-images.githubusercontent.com/86305867/122938095-b8115780-d32f-11eb-96bb-27fd07b45d0b.png)
 
 
@@ -25,25 +28,18 @@ The user will be capable to browse and serach different makeup catergories by ty
 
 #### MVP 
 
-- Built with HTML, CSS, and JavaScript.
-- Styled using Flexbox or Grid.
-- Use Axios to make a request to an external data source for the product pictures and insert some of the retrieved data on to the DOM.
-- Implement responsive design using at least one media query/breakpoint with the drop down bar 
-- Deployed site to a hosting service like Github Pages.
-- Make commits to GitHub every day.
-- A README.md file that contains your project worksheet, a link to your live, deployed site, and any necessary installation instructions such as npm i.
-- Allow user to choose favorites 
-- Allow users to be able to add their email input 
-- Create Nav with catorgies 
-- Search function to be able to look up different ingredients(such as if it's hyperallerginic) and types
+- Allow user to search product type with drop down menu
+- render card with brand, name, description, price and imagine link
+- Remove previous search results
+- Style Card with Flexbox
 
 
 #### PostMVP  
 
 - Look into localstorage so you can save data to the user's browser
 - Add a second API.
+- Search function to be able to look up different ingredients(such as if it's hyperallerginic) and types
 - Add creative use of event listeners and UI interaction.
-- Add media queries for responsive design.
 - Add animations.
 
 ## Project Schedule
