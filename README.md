@@ -6,30 +6,13 @@ Makeup Page
 
 ## Project Description
 
-User will be able to click and search different makeup as well see the picture of the makeup, the pricing and description. They will be able to also search certain indgridents the user would want in the makeup.
+The user will be capable to browse and serach different makeup catergories by types or if looking for certain makeup that are vegan or hyerallegenic, as well as view pricing a description to the makeup. User will be able to favoritve products and be able to sign up with their email on the homepage.
 
 ## API and Data Sample
 
 [url]http://makeup-api.herokuapp.com/api/v1/products.json
 ![Screen Shot 2021-06-22 at 7 58 38 AM](https://user-images.githubusercontent.com/86305867/122938095-b8115780-d32f-11eb-96bb-27fd07b45d0b.png)
 
-id: 1048,
-brand: "colourpop",
-name: "Lippie Pencil",
-price: "5.0",
-price_sign: "$",
-currency: "CAD",
-image_link: "https://cdn.shopify.com/s/files/1/1338/0845/collections/lippie-pencil_grande.jpg?v=1512588769",
-product_link: "https://colourpop.com/collections/lippie-pencil",
-website_link: "https://colourpop.com",
-description: "Lippie Pencil A long-wearing and high-intensity lip pencil that glides on easily and prevents feathering. Many of our Lippie Stix have a coordinating Lippie Pencil designed to compliment it perfectly, but feel free to mix and match!",
-rating: null,
-category: "pencil",
-product_type: "lip_liner",
-tag_list: [
-"cruelty free",
-"Vegan"
-],
 
 ## Wireframes
 ![Screen Shot 2021-06-21 at 5 35 01 PM](https://user-images.githubusercontent.com/86305867/122937543-4cc78580-d32f-11eb-9f70-70356a24d9c0.png)
@@ -44,14 +27,14 @@ tag_list: [
 
 - Built with HTML, CSS, and JavaScript.
 - Styled using Flexbox or Grid.
-- Use Axios to make a request to an external data source for product pictures and insert some of the retrieved data on to the DOM.
-- Implement responsive design using at least one media query/breakpoint 
+- Use Axios to make a request to an external data source for the product pictures and insert some of the retrieved data on to the DOM.
+- Implement responsive design using at least one media query/breakpoint with the drop down bar 
 - Deployed site to a hosting service like Github Pages.
 - Make commits to GitHub every day.
 - A README.md file that contains your project worksheet, a link to your live, deployed site, and any necessary installation instructions such as npm i.
 - Allow user to choose favorites 
 - Allow users to be able to add their email input 
-- Create Nav bar with catorgies 
+- Create Nav with catorgies 
 - Search function to be able to look up different ingredients(such as if it's hyperallerginic) and types
 
 
@@ -87,14 +70,14 @@ tag_list: [
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 |Creating Functional buttons  | H | 4hrs| :---: | :---: |
-| Navigation | M | 3hrs| :---: | :---: |
-| Working with API | H | 4hrs| :---: | :---: |
-| Have search bar function correctly | M | 3hrs| :---: | :---: |
-| Styling with flex box | H | 3hrs| :---: | :---: |
+| navigation/dropdown bar with correct data | M | 3hrs| :---: | :---: |
+| Grabbing proper data with API | H | 4hrs| :---: | :---: |
+| Grabbing data for search box | M | 3hrs| :---: | :---: |
+| Styling with flex box for products | H | 3hrs| :---: | :---: |
 | Using Axios to extract makeup data | H | 5hrs| :---: | :---: |
 | Add local storage | L|  3.5 hrs | :---: | :---: |
-| Creating boilerplate,html| H|  5hrs| :---: | :---: |
-| Adding Favortives | M |  4.5hrs | :---: | :---: |
+| Creating boilerplate,html,css, js| H|  5hrs| :---: | :---: |
+| Adding Favortives function| M |  4.5hrs | :---: | :---: |
 | Work on layout in CSS| M |  4hrs | :---: | :---: |
 | Create email input| L |  3.5hrs | :---: | :---: |
 | Total | H | 42.5hrs| :---: | :---: |
