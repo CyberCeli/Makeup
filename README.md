@@ -11,6 +11,7 @@ User will be able to click and search different makeup as well see the picture o
 ## API and Data Sample
 
 [url]http://makeup-api.herokuapp.com/api/v1/products.json
+![Screen Shot 2021-06-22 at 7 58 38 AM](https://user-images.githubusercontent.com/86305867/122938095-b8115780-d32f-11eb-96bb-27fd07b45d0b.png)
 
 id: 1048,
 brand: "colourpop",
