@@ -6,7 +6,7 @@ Makeup Page
 
 ## Project Description
 
-The user will be capable to browse and serach different makeup catergories by types or if looking for certain makeup that are vegan or hyerallegenic, as well as view pricing a description to the makeup. User will be able to favoritve products and be able to sign up with their email on the homepage.
+The user will be capable to browse and serach different makeup catergories by types or if looking for certain makeup that are vegan or hyerallegenic, as well as view pricing and a description to the makeup. User will be able to favoritve products and be able to sign up with their email on the homepage.
 
 ## API and Data Sample
 
