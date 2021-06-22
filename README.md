@@ -31,8 +31,9 @@ tag_list: [
 ],
 
 ## Wireframes
+![Screen Shot 2021-06-21 at 5 35 01 PM](https://user-images.githubusercontent.com/86305867/122937543-4cc78580-d32f-11eb-9f70-70356a24d9c0.png)
 
-[url]https://whimsical.com/makeup-DdCzNGMBPw9h1BA4LLr3QD
+
 
 
 ### MVP/PostMVP
@@ -97,13 +98,8 @@ tag_list: [
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
-```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+
+
