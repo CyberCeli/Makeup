@@ -76,7 +76,9 @@ tag_list: [
 
 ## Priority Matrix
 
-[url]https://whimsical.com/pm-TKsLMT3BEghkjye7NFL9ak
+![Screen Shot 2021-06-22 at 7 56 35 AM](https://user-images.githubusercontent.com/86305867/122937740-6f599e80-d32f-11eb-9e45-4987d715a30c.png)
+
+
 
 ## Timeframes
 
