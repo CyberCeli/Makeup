@@ -83,7 +83,7 @@ The user will be capable to browse and serach different makeup catergories by ty
 
 
 ## Change Log
-| Date | File |  What was done | :---: | :---: |
+
 |6/32 | JavaScript |  Coding/ dropdown menu | :---: | :---: |
 | --- | :---: |  :---: | :---: | :---: |
 | --- | :---: |  :---: | :---: | :---: |
