@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+}
+
+.background {
+  background-image: url("https://media.cntraveler.com/photos/57fbbb068584f8cd20e65ec5/16:9/w_1280,c_limit/makeup-GettyImages-74867297.jpg");
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  animation: slide 20s ease-in-out infinite;
+}
+
+#btn {
+  border-radius: 40%;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  display: inline;
+  position: relative;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 4px;
+  padding: 3px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin: auto;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  height: 50px;
+}
+
+@keyframes slide {
+  0% {
+    background-image: url("https://i1.wp.com/i.ytimg.com/vi/21Vn5Jjojck/maxresdefault.jpg?resize=1060%2C596&ssl=1");
+  }
+  20% {
+    background-image: url("https://www.anniesnoms.com/wp-content/uploads/2019/11/holy-grail-makeup-brushes-1b-1280x720.jpg");
+  }
+  40% {
+    background-image: url("https://coveteur.com/wp-content/uploads/2018/10/Cassandra_Garcia-16-new-korean-beauty-makeup-trends-homepage-1280x720.jpg");
+  }
+  60% {
+    background-image: url("https://i2.wp.com/www.glossy.co/wp-content/uploads/2018/09/elf-cosmetics.jpg?fit=1280%2C720&zoom=2&quality=100&strip=all&ssl=1");
+  }
+  80% {
+    background-image: url("https://cdn.luxatic.com/wp-content/uploads/2021/02/Dior-makeup.jpg");
+  }
+}
+a:hover {
+  text-decoration: underline;
+}
+
+#btn:hover {
+  background-color: palevioletred;
+}

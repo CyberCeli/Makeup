@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel = "stylesheet" href="./style.css">
-  <script src="http://makeup-api.herokuapp.com"></script>
-  <script src="app.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script defer src="app.js"></script>
 
   
 </head>
@@ -18,23 +18,16 @@
 
     <nav>
         <ul>
-          <li>Face</li>
-          <li>Eyes</li>
-          <li>Cheeks</li>
-          <li>Lips</li>
-          <li>Nails</li>
+          <li><a href = "#">Face</a></li>
+          <li><a href = "#">Eyes</a></li>
+          <li><a href = "#">Cheeks</a></li>
+          <li><a href = "#">Lips</a></li>
+          <li><a href = "#">Nails</a></li>
         </ul>
   </nav>
-<form>
-  <select class = "selections">
-    <option disabled selected>Makeup Products</option>
-  </select>
-  <button id="btn">Get Products</button>
-</form>
 
-  <div class = "container">
-    
-  </div>
+
+  
 
   <section>
     <section class = "into">
@@ -42,7 +35,19 @@
 
 </header>
 
+<div class = "background"></div>
 <main>
+
+  <form>
+    <select class = "selections">
+      <option disabled selected>Makeup Products</option>
+      <option disabled selected></option>
+    </select>
+    <button id="btn">Beautify Me</button>
+  </form>
+  <div class = "container">
+  </div>
+
   <article>
     <div class='products'>
       <div class='column'>""</div>
