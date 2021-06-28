@@ -13,6 +13,7 @@ form.addEventListener('submit', (e) => {
   e.preventDefault()
   const optionValue = document.querySelector('select').value
   // console.log(optionValue)
+  removeProducts()
   getProductList(optionValue)
 })
 
@@ -20,7 +21,7 @@ form.addEventListener('submit', (e) => {
 // Make a request to dynamically create dropdown list from all the product catergories
 const getProductList = async (product) => {
   try {
-    const products = `http://makeup-api.herokuapp.com/api/v1/products.json?product_type=${product}`
+    const products = `https://makeup-api.herokuapp.com/api/v1/products.json?product_type=${product}`
     const response = await axios.get(products);
     console.log(response);
     const productTypes = response.data
@@ -55,17 +56,12 @@ function appendProductTypes(product) {
 }
   // Remove search history
 
-  button.addEventListener('click', () => {
-    removeProducts()
-    getData()
-  })
-  function removeProducts() {
+  
+function removeProducts() {
+    console.log(products.lastChild)
     while (products.lastChild) {
-      productsremoveChild(products.lastChild)
+      products.removeChild(products.lastChild)
     }
   }
 
-  // 
-  document.createElement("img");
-
-  const img = document.createElement("img");
+  
