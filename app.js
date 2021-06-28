@@ -9,6 +9,7 @@ const form = document.querySelector('form')
 const dataContainer = document.querySelector('.container')
 const products = document.querySelector('.products')
 
+
 form.addEventListener('submit', (e) => {
   e.preventDefault()
   const optionValue = document.querySelector('select').value
